@@ -5,9 +5,9 @@
 
 ## Getting Started
 
-##### git clone https://github.com/diljithishere/mptif.git
-##### cd 
-
+##### git clone https://github.com/diljithishere/msfvenomwrapper.git
+##### cd msfvenomwrapper
+##### go build wrap.go
 
 #### Run Binary
 ##### ./wrap revhttps into exepath saveas filename
